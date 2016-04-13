@@ -22,6 +22,8 @@ the License.
     <relativePath />
   </parent>
 
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/Google+Deployment+Manager+Plugin</url>
+
   <artifactId>google-deployment-manager</artifactId>
   <packaging>hpi</packaging>
   <version>0.1-SNAPSHOT</version>
