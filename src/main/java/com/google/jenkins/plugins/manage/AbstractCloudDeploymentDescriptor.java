@@ -92,9 +92,10 @@ public abstract class AbstractCloudDeploymentDescriptor
   }
 
   /**
+   * <p>
    * Determines whether the given cloud deployment is suitable for use with a particular class of
    * extensions.
-   * <p/>
+   * </p>
    * For instance, some may be designed for use with a {@code Cloud}, while others may be designed
    * for use with a {@code Publisher}.
    */

@@ -144,8 +144,9 @@ public abstract class AbstractCloudDeployment
       throws CloudManagementException;
 
   /**
+   * <p>
    * NOTE: This should be treated as final, but is not to allow mocking.
-   * <p/>
+   * </p>
    * Creates the given deployment.
    *
    * @param configFileContents The contents of the deployment config file
@@ -257,8 +258,10 @@ public abstract class AbstractCloudDeployment
   }
 
   /**
+   * <p>
    * NOTE: This should be treated as final, but is not to allow mocking.
-   * <p/>
+   * </p>
+   *
    * Deletes user's deployment.
    *
    * @param environment The environment under which to execute the deletion

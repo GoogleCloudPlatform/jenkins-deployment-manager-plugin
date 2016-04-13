@@ -38,6 +38,7 @@ import javax.annotation.Nullable;
  * </p>
  * <p>
  * To provide details for a new build step, add a class as
+ * </p>
  * 
  * <pre>
  * <code>
@@ -52,7 +53,7 @@ import javax.annotation.Nullable;
  *   }
  * </code>
  * </pre>
- * 
+ * <p>
  * See examples in {@link MavenBuildStepDetailsProvider} and {@link ShellBuildStepDetailsProvider}
  * below.
  * </p>
