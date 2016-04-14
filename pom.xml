@@ -24,7 +24,7 @@ the License.
 
   <artifactId>google-deployment-manager</artifactId>
   <packaging>hpi</packaging>
-  <version>0.1</version>
+  <version>0.2-SNAPSHOT</version>
 
   <name>Google Deployment Manager Jenkins Plugin</name>
   <description>
@@ -70,7 +70,7 @@ the License.
       scm:git:git@github.com:jenkinsci/${project.gitProjectId}.git
     </developerConnection>
     <url>http://github.com/jenkinsci/${project.gitProjectId}</url>
-    <tag>google-deployment-manager-0.1</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <build>
