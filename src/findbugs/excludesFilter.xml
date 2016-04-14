@@ -12,4 +12,7 @@
   <Match>
     <Bug pattern="NP_ALWAYS_NULL" />
   </Match>
+  <Match>
+    <Bug pattern="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE" />
+  </Match>
 </FindBugsFilter>
