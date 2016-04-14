@@ -11,9 +11,7 @@ is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND
 or implied. See the License for the specific language governing permissions and limitations under
 the License.
 ]]>-->
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns="http://maven.apache.org/POM/4.0.0"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
@@ -26,7 +24,7 @@ the License.
 
   <artifactId>google-deployment-manager</artifactId>
   <packaging>hpi</packaging>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.1</version>
 
   <name>Google Deployment Manager Jenkins Plugin</name>
   <description>
@@ -72,7 +70,7 @@ the License.
       scm:git:git@github.com:jenkinsci/${project.gitProjectId}.git
     </developerConnection>
     <url>http://github.com/jenkinsci/${project.gitProjectId}</url>
-    <tag>HEAD</tag>
+    <tag>google-deployment-manager-0.1</tag>
   </scm>
 
   <build>
